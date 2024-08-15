@@ -1,0 +1,110 @@
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.div_image {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 290px;
+  height: 310px;
+}
+.div_item {
+  display: flex;
+  gap: 24px;
+}
+
+.div_right {
+  width: 526px;
+  /* border: 2px solid green; */
+}
+.div_right_first {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.name_text {
+  color: rgb(16, 24, 40);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.button {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa {
+  width: 20px;
+  height: 20px;
+}
+.price_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+}
+
+.star {
+  fill: rgb(255, 197, 49);
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 2px;
+  margin-right: 4px;
+}
+.rating {
+  margin-right: 18px;
+  color: rgb(16, 24, 40);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.div_right_second {
+  margin-bottom: 24px;
+}
+.div_right_third {
+  height: 24px;
+}
+.div_right_third_text {
+  color: rgb(71, 84, 103);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.kitchen {
+  width: 126px;
+  height: 44px;
+  border-radius: 100px;
+  background: rgb(242, 244, 247);
+  color: rgb(16, 24, 40);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+}
+.div_right_forth {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  gap: 8px;
+  margin-bottom: 24px;
+}

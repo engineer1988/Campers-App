@@ -16,21 +16,24 @@
 }
 
 .custom_radio {
-  width: 50px; /* Размер квадрата */
-  height: 50px;
+  width: 100px;
+  height: 95px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
+  background-color: inherit;
   border: 2px solid #ccc;
   border-radius: 5px;
   transition: all 0.3s ease;
+  border-radius: 10px;
 }
 
 .radio_label input[type='radio']:checked + .custom_radio {
-  background-color: #4caf50; /* Цвет квадрата при выборе */
-  border-color: #4caf50;
-  color: white; /* Цвет иконки при выборе */
+  /* background-color: #4caf50; Цвет квадрата при выборе */
+  /* border-color: #4caf50; */
+  border-color: red;
+  color: inherit; /* Цвет иконки при выборе */
 }
 
 .custom_radio svg {
@@ -40,4 +43,20 @@
 .radio_label input[type='radio']:checked + .custom_radio {
   transform: scale(1.1); /* Небольшое увеличение при выборе */
   transition: transform 0.2s ease-in-out;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons_text {
+  color: rgb(16, 24, 40);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
 }

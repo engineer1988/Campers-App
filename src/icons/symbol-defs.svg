@@ -1,0 +1,18 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-Automatic" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8" d="M22.66 28h1.34c0.7 0 1.38-0.29 1.88-0.79s0.78-1.17 0.78-1.88-0.28-1.39-0.78-1.89-1.18-0.78-1.88-0.78h-1.34v5.34zM22.66 14.66h2c0.53 0 1.040-0.21 1.42-0.58 0.37-0.38 0.58-0.89 0.58-1.42 0-0.001 0-0.001 0-0.002 0-1.103-0.895-1.998-1.998-1.998-0.001 0-0.001 0-0.002 0h-2v6.67M4.78 8.55c0.483 0.481 1.149 0.779 1.885 0.779s1.402-0.297 1.885-0.779l-0 0c0.481-0.483 0.779-1.149 0.779-1.885s-0.297-1.402-0.779-1.885l0 0c-0.483-0.481-1.149-0.779-1.885-0.779s-1.402 0.297-1.885 0.779l0-0c-0.481 0.483-0.779 1.149-0.779 1.885s0.297 1.402 0.779 1.885l-0-0z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8" d="M6.66 9.33v4c0.002 0.735 0.598 1.33 1.333 1.33 0.002 0 0.005 0 0.007-0h9.33M12 14.66v9.34c0.002 0.734 0.596 1.328 1.33 1.33h4"></path>
+</symbol>
+<symbol id="icon-Kitchen" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8" d="M25.33 20h-6.67c-0.030-4.91 0.25-9.88 6.67-16v24h-1.33v-4M10.66 5.33v22.67M6.66 5.33v4c0 1.060 0.42 2.080 1.17 2.83 0.724 0.724 1.725 1.171 2.83 1.171s2.106-0.448 2.83-1.172l-0 0c0.75-0.75 1.17-1.77 1.17-2.83v-4"></path>
+</symbol>
+<symbol id="icon-Shower" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M5.33 5.33l3.33 3.33M18 8.66c-1.19-1.163-2.819-1.88-4.615-1.88-0.016 0-0.031 0-0.047 0h0.002c-1.74 0-3.4 0.7-4.63 1.93-1.189 1.183-1.926 2.82-1.93 4.629v0.001c-0.010 1.74 0.66 3.41 1.88 4.66M20 6.66l-13.34 13.34M18.66 22.66v0.020M13.33 21.33v0.010M17.33 17.33v0.010M21.33 13.33v0.010M14.66 26.66v0.020M22.66 18.66v0.020M26.66 14.66v0.020"></path>
+</symbol>
+<symbol id="icon-TV" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.8" d="M8 26c-2.22 0-4-1.79-4-4v-10c0-2.22 1.78-4 4-4h16c2.21 0 4 1.78 4 4v10c0 2.21-1.79 4-4 4h-16z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8" d="M12 30h8M16 8l6-6M16 8l-6-6"></path>
+</symbol>
+</defs>
+</svg>

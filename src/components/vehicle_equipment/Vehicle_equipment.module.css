@@ -1,0 +1,61 @@
+.checkbox_group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.checkbox_label {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.checkbox_label input[type='checkbox'] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom_checkbox {
+  width: 100px;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.checkbox_label input[type='checkbox']:checked + .custom_checkbox {
+  border-color: red;
+  background-color: inherit; /* Фон при выборе */
+}
+
+.custom_checkbox svg {
+  font-size: 24px;
+}
+
+.checkbox_label input[type='checkbox']:checked + .custom_checkbox {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons_text {
+  color: rgb(16, 24, 40);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+}
+.svg {
+  margin-left: 8px;
+}
