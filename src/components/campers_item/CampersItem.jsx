@@ -10,6 +10,7 @@ import { useState } from 'react';
 import Button from '../button/Button';
 import { selectCampers } from '../../redux/campersSlice';
 import { useDispatch, useSelector } from 'react-redux';
+import { addFavoriteCamper } from '../../redux/favoriteSlice';
 
 export default function CampersItem({ item }) {
   const dispatch = useDispatch();
@@ -19,13 +20,25 @@ export default function CampersItem({ item }) {
   const toggleHeart = () => {
     setShowBtnHeart(!showBtnHeart);
   };
-  const favoriteCamper = id => {
-    console.log(id);
+  const favoriteCamper = (id, ob) => {
+    return ob.find(option => option._id === id);
   };
 
+  // const handleclick = () => {
+  //   toggleHeart();
+  //   dispatch(addFavoriteCamper(favoriteCamper(item._id, campers)));
+  // };
   const handleclick = () => {
-    toggleHeart();
+    const camper = favoriteCamper(item._id, campers);
+
+    if (camper) {
+      toggleHeart();
+      dispatch(addFavoriteCamper(camper));
+    } else {
+      console.log('Camper not found!');
+    }
   };
+
   return (
     <>
       <div className={css.div_item}>

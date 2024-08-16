@@ -11,9 +11,11 @@ export default function Campers_list({ page }) {
   const isLoading = useSelector(selectLoading);
   const error = useSelector(selectError);
   const campers = useSelector(selectCampers);
+
   useEffect(() => {
     dispatch(fetchCampers(page));
   }, [dispatch, page]);
+
   return (
     <ul>
       {campers.length ? (
