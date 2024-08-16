@@ -85,7 +85,7 @@
   text-align: left;
 }
 .kitchen {
-  width: 126px;
+  max-width: 126px;
   height: 44px;
   border-radius: 100px;
   background: rgb(242, 244, 247);
@@ -97,6 +97,7 @@
   letter-spacing: 0%;
   text-align: center;
   display: flex;
+  gap: 8px;
   justify-content: space-between;
   align-items: center;
   padding: 12px 18px;
@@ -107,4 +108,8 @@
   margin-top: 24px;
   gap: 8px;
   margin-bottom: 24px;
+}
+.svg {
+  fill: white;
+  stroke: black;
 }

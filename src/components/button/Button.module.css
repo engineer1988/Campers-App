@@ -1,15 +1,51 @@
-.custom_button {
+.search {
   width: 173px;
   height: 56px;
   border-radius: 200px;
   color: white;
-  background-color: red;
+  background-color: rgb(228, 72, 72);
   border: none;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.custom_button:hover {
-  background-color: darkred;
+.search:hover {
+  background-color: rgb(216, 67, 67);
+}
+.show {
+  width: 166px;
+  height: 56px;
+  border-radius: 200px;
+  color: white;
+  background-color: rgb(228, 72, 72);
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.show:hover {
+  background-color: rgb(216, 67, 67);
+}
+.load {
+  width: 145px;
+  height: 56px;
+  border-radius: 200px;
+  color: rgb(16, 24, 40);
+  background-color: inherit;
+  border: 1px solid;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.5%;
+  border-color: rgba(71, 84, 103, 0.2);
+  /* text-align: left; */
+}
+
+.load:hover {
+  border-color: rgb(228, 72, 72);
 }

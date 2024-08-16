@@ -58,7 +58,7 @@ export default function Filters({ onSearch }) {
         onCheckboxChange={handleCheckboxChange}
       />
       <Vehicle_type selectedVehicleType={vehicleType} onRadioChange={handleRadioChange} />
-      <Button label="Search" />
+      <Button variant="search" label="Search" />
     </form>
   );
 }

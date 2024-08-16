@@ -18,12 +18,13 @@ const campersSlice = createSlice({
       .addCase(fetchCampers.fulfilled, (state, action) => {
         state.loading = false;
         state.error = null;
-        state.items = action.payload;
+        // state.items = action.payload;
+        state.items = [...state.items, ...action.payload];
       })
       .addCase(fetchCampers.rejected, (state, action) => {
         state.loading = false;
         state.error = action.payload;
-      })
+      }),
 });
 export const selectCampers = state => {
   return state.campers.items;
