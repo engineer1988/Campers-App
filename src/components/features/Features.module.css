@@ -1,0 +1,51 @@
+.features {
+  display: flex;
+  margin-right: 24px;
+}
+
+.features_left {
+  width: 430px;
+}
+
+.features_right {
+  width: 448px;
+}
+
+.features_left_img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.kitchen {
+  max-width: 126px;
+  height: 44px;
+  border-radius: 100px;
+  background: rgb(242, 244, 247);
+  color: rgb(16, 24, 40);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+}
+
+.fa {
+  width: 20px;
+  height: 20px;
+}
+
+.features {
+  margin-top: 44px;
+}
+
+.features_right {
+  display: flex;
+  justify-content: left;
+}

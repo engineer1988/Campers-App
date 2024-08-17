@@ -5,6 +5,7 @@ import { selectCampers } from '../../redux/campersSlice';
 import CampersItem from '../campers_item/CampersItem';
 import css from './Campers_list.module.css';
 import { selectFavoritesCampers } from '../../redux/favoriteSlice';
+
 export default function Campers_list({ page }) {
   const dispatch = useDispatch();
   const campers = useSelector(selectCampers);
@@ -15,20 +16,22 @@ export default function Campers_list({ page }) {
   }, [dispatch, page]);
 
   return (
-    <ul>
-      {campers.length ? (
-        campers.map(result => {
-          const isFavorite = favoriteCampers.some(c => c._id === result._id);
+    <>
+      <ul>
+        {campers.length ? (
+          campers.map(result => {
+            const isFavorite = favoriteCampers.some(c => c._id === result._id);
 
-          return (
-            <li className={css.item} key={result._id}>
-              <CampersItem item={result} open={isFavorite} />
-            </li>
-          );
-        })
-      ) : (
-        <p>No results found</p>
-      )}
-    </ul>
+            return (
+              <li className={css.item} key={result._id}>
+                <CampersItem item={result} open={isFavorite} />
+              </li>
+            );
+          })
+        ) : (
+          <p>No results found</p>
+        )}
+      </ul>
+    </>
   );
 }

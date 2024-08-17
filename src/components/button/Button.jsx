@@ -1,11 +1,11 @@
 import css from './Button.module.css';
 import clsx from 'clsx';
 
-const Button = ({ variant, label, onAddPage }) => {
+const Button = ({ variant, label, onHandleClick }) => {
   return (
     <button
       onClick={() => {
-        onAddPage();
+        onHandleClick();
       }}
       className={clsx(css[variant])}
     >
