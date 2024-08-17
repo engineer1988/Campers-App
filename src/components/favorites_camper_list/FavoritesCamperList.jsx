@@ -11,7 +11,7 @@ export default function FavoritesCamperList() {
       {campers.length ? (
         campers.map(result => (
           <li className={css.item} key={result._id}>
-            <CampersItem item={result} />
+            <CampersItem item={result} open={true} />
           </li>
         ))
       ) : (
