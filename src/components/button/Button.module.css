@@ -13,6 +13,21 @@
 .search:hover {
   background-color: rgb(216, 67, 67);
 }
+.send {
+  width: 160px;
+  height: 56px;
+  border-radius: 200px;
+  color: white;
+  background-color: rgb(228, 72, 72);
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send:hover {
+  background-color: rgb(216, 67, 67);
+}
 .show {
   width: 166px;
   height: 56px;
@@ -43,7 +58,6 @@
   line-height: 24px;
   letter-spacing: -0.5%;
   border-color: rgba(71, 84, 103, 0.2);
-  /* text-align: left; */
 }
 
 .load:hover {

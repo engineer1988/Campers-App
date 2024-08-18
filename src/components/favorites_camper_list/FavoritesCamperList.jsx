@@ -5,7 +5,6 @@ import css from './FavoritesCamperList.module.css';
 
 export default function FavoritesCamperList() {
   const campers = useSelector(selectFavoritesCampers);
-  console.log(campers);
   return (
     <ul>
       {campers.length ? (

@@ -1,17 +1,3 @@
-// import { configureStore, combineReducers } from '@reduxjs/toolkit';
-// import { campersReducer } from './campersSlice';
-// import { filtersReducer } from './filtersSlice';
-// import { favoritesReducer } from './favoriteSlice';
-
-// const rootReducer = combineReducers({
-//   campers: campersReducer,
-//   filters: filtersReducer,
-//   favorites: favoritesReducer,
-// });
-
-// export const store = configureStore({
-//   reducer: rootReducer,
-// });
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import { campersReducer } from './campersSlice';
 import { filtersReducer } from './filtersSlice';
@@ -27,17 +13,19 @@ import {
   REGISTER,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
+import selectedItemReducer from './selectedItemSlice';
 
 const rootReducer = combineReducers({
   campers: campersReducer,
   filters: filtersReducer,
   favorites: favoritesReducer,
+  selectedItem: selectedItemReducer,
 });
 
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['campers', 'favorites'],
+  whitelist: ['favorites'],
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

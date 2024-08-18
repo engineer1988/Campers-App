@@ -16,7 +16,6 @@
 
 .div_right {
   width: 526px;
-  /* border: 2px solid green; */
 }
 .div_right_first {
   display: flex;
@@ -85,7 +84,6 @@
   text-align: left;
 }
 .kitchen {
-  max-width: 126px;
   height: 44px;
   border-radius: 100px;
   background: rgb(242, 244, 247);

@@ -2,6 +2,7 @@
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  margin-bottom: 32px;
 }
 
 .checkbox_label {
@@ -58,4 +59,18 @@
 }
 .svg {
   margin-left: 8px;
+}
+.vehicle {
+  color: rgb(16, 24, 40);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.line {
+  border: 1px solid rgba(16, 24, 40, 0.1);
+  margin-bottom: 24px;
 }

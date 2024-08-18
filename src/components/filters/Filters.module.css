@@ -1,0 +1,35 @@
+.booking_input {
+  width: 360px;
+  height: 56px;
+  margin-bottom: 14px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(16, 24, 40, 0.6);
+  background: rgb(247, 247, 247);
+  margin-bottom: 32px;
+}
+.booking_label {
+  color: rgba(16, 24, 40, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.filters {
+  color: rgb(71, 84, 103);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 14px;
+}

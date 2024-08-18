@@ -1,0 +1,24 @@
+.home_page {
+  padding-bottom: 350px;
+  padding-top: 350px;
+  max-width: 1440px;
+  background-color: rgba(46, 47, 66, 1);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../../components/image/camper.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.first_title {
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.02em;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 72px;
+  color: #fff;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+}

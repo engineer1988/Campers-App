@@ -1,5 +1,5 @@
 .link {
-  display: inline-block;
+  display: block;
   text-decoration: none;
   padding: 12px;
   font-weight: 700;
@@ -11,4 +11,7 @@
 }
 .link:focus {
   color: #e84a5f;
+}
+.nav {
+  display: flex;
 }

@@ -1,6 +1,6 @@
 .features {
   display: flex;
-  margin-right: 24px;
+  gap: 24px;
 }
 
 .features_left {
@@ -15,10 +15,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  margin-bottom: 44px;
 }
 
 .kitchen {
-  max-width: 126px;
   height: 44px;
   border-radius: 100px;
   background: rgb(242, 244, 247);
@@ -46,6 +46,36 @@
 }
 
 .features_right {
+  width: 448px;
+  height: 532px;
+  padding: 24px;
+  padding-top: 18px;
+  border: 1px solid rgba(16, 24, 40, 0.2);
+  border-radius: 10px;
+}
+.svg_CD {
+  stroke: aliceblue;
+}
+.vehicle_details_item {
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
+}
+.custom {
+  color: rgb(16, 24, 40);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.vehicle_details_header {
+  margin-bottom: 24px;
+}
+.vehicle_details_header_line {
+  border: 1px solid rgba(16, 24, 40, 0.1);
+  margin-bottom: 24px;
+}
+.vehicle_details_item:not(:last-child) {
+  margin-bottom: 14px;
 }

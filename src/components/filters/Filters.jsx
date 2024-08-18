@@ -1,16 +1,3 @@
-// import Vehicle_equipment from '../vehicle_equipment/Vehicle_equipment';
-// import Vehicle_type from '../vehicle_type/Vehicle_type';
-// import Button from '../button/Button';
-// export default function Filters() {
-//   return (
-//     <div>
-//       <p>Filters</p>
-//       <Vehicle_equipment />
-//       <Vehicle_type />
-//       <Button label="Search" />
-//     </div>
-//   );
-// }
 import { useState } from 'react';
 import Vehicle_equipment from '../vehicle_equipment/Vehicle_equipment';
 import Vehicle_type from '../vehicle_type/Vehicle_type';
@@ -49,10 +36,16 @@ export default function Filters({ onSearch }) {
   return (
     <form className={css.filtersForm} onSubmit={handleSubmit}>
       <div className={css.location}>
-        <p>Location</p>
-        <input type="text" value={location} onChange={handleLocationChange} placeholder="City" />
+        <label className={css.booking_label}>Location</label>
+        <input
+          className={css.booking_input}
+          type="text"
+          value={location}
+          onChange={handleLocationChange}
+          placeholder="City"
+        />
       </div>
-      <p>Filters</p>
+      <p className={css.filters}>Filters</p>
       <Vehicle_equipment
         selectedEquipment={selectedEquipment}
         onCheckboxChange={handleCheckboxChange}

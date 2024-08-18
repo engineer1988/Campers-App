@@ -1,3 +1,75 @@
-.text {
+.reviews {
+  display: flex;
+  gap: 24px;
   margin-top: 44px;
+}
+
+.reviews_left {
+  width: 430px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.reviews_right {
+  width: 448px;
+  height: 532px;
+  padding: 24px;
+  padding-top: 18px;
+  border: 1px solid rgba(16, 24, 40, 0.2);
+  border-radius: 10px;
+}
+.squod {
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgb(242, 244, 247);
+  border-radius: 30px;
+  background: rgb(242, 244, 247);
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  border: 1px dashed rgb(223, 231, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: red;
+}
+.first {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.star {
+  fill: rgb(255, 197, 49);
+}
+.star2 {
+  fill: rgb(227, 234, 245);
+}
+.name_star {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reviewer_name {
+  color: rgb(16, 24, 40);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.comment {
+  color: rgb(71, 84, 103);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
 }
